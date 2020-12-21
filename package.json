@@ -1,0 +1,25 @@
+{
+  "name": "craftrips",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pasan1227/Craftrips-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pasan1227/Craftrips-web/issues"
+  },
+  "homepage": "https://github.com/pasan1227/Craftrips-web#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.17",
+    "nodemailer-mailgun-transport": "^2.0.2"
+  }
+}
