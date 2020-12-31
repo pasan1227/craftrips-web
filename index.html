@@ -925,28 +925,29 @@
 			  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At.</p>
 			</div>
 		  </div>
-  
 		  <div class="row block-9">
 			<div class="col-md-7 order-md-last d-flex">
+
 			  <form action="" method="POST" class="bg-light p-4 p-md-5 contact-form">
 				<div class="form-group">
-					<input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required>
+					<input type="text" id="name" name="name" class="form-control name" placeholder="Your Name" required>
 				</div>
 				<div class="form-group">
-					<input type="email" id="email" name="email" class="form-control" placeholder="Your Email" required>
+					<input type="email" id="email" name="email" class="form-control email" placeholder="Your Email" required>
 				  </div>
 				<div class="form-group">
-					<input type="text" id="subject" name="subject" class="form-control" placeholder="Subject" required>
+					<input type="text" id="subject" name="subject" class="form-control subject" placeholder="Subject" required>
 				</div>	
 				<div class="form-group">
-				  <textarea name="" id="text" cols="30" rows="7" class="form-control" placeholder="Message" required></textarea>
+				  <textarea name="" id="text" cols="30" rows="7" class="form-control message" placeholder="Message" required></textarea>
 				</div>
 				<div class="form-group">
 				  <input type="submit" value="submit" class="btn btn-primary py-3 px-5">
 				</div>
 			  </form>
-			
 			</div>
+
+			<!-- <div class="infosResults"></div> -->
   
 			<div class="col-md-5 d-flex">
 				<div class="row d-flex contact-info mb-5">
@@ -1128,6 +1129,8 @@
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"></script>
 	<script src="js/google-map.js"></script>
 	<script src="js/main.js"></script>
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase.js"></script>
 	<script src="js/app.js"></script>
 
 	<script>
