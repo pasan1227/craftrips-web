@@ -928,12 +928,15 @@
   
 		  <div class="row block-9">
 			<div class="col-md-7 order-md-last d-flex">
-			  <form class="bg-light p-4 p-md-5 contact-form">
+			  <form action="" method="POST" class="bg-light p-4 p-md-5 contact-form">
 				<div class="form-group">
-					<input type="text" id="subject" class="form-control" placeholder="Subject" required>
+					<input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required>
+				</div>
+				<div class="form-group">
+					<input type="email" id="email" name="email" class="form-control" placeholder="Your Email" required>
 				  </div>
 				<div class="form-group">
-				  <input type="email" id="email" class="form-control" placeholder="Your Email" required>
+					<input type="text" id="subject" name="subject" class="form-control" placeholder="Subject" required>
 				</div>	
 				<div class="form-group">
 				  <textarea name="" id="text" cols="30" rows="7" class="form-control" placeholder="Message" required></textarea>
@@ -1125,25 +1128,26 @@
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"></script>
 	<script src="js/google-map.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/app.js"></script>
 
 	<script>
 		
-		$('form').on('submit', (e) => {
-			e.preventDefault();
+		 $('form').on('submit', (e) => {
+		 	e.preventDefault();
 
-			const email= $('#email').val().trim();
-			const subject = $('#subject').val().trim();
-			const text = $('#text').val().trim();
+		 	const email= $('#email').val().trim();
+		 	const subject = $('#subject').val().trim();
+		 	const text = $('#text').val().trim();
 
-			const data = {
-				email,
-				subject,
-				text
-			};
+		 	const data = {
+		 		email,
+		 		subject,
+		 		text
+		 	};
 
-			$.post('/email', data, function(){
-				console.log('Server received our data');
-			});
+		 	$.post('/email', data, function(){
+		 		console.log('Server received our data');
+		 	});
 
 		});
 
