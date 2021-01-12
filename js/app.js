@@ -81,9 +81,9 @@ function sendEmail(name, email, subject, message){
         Host: "smtp.gmail.com",
         Username: 'softgenix2020@gmail.com',
         Password: "tHedbIAlsTinGLY",
-        To: 'pasanratnayake@gmail.com',
+        To: 'softgenix2020@gmail.com',
         From: 'softgenix2020@gmail.com',
-        Subject: `${subject} sent you a message`,
-        Body: `Name: ${name} <br/> Email: ${email} <br/> Message: ${message}`,
+        Subject: `${name} sent you a message`,
+        Body: `Name: ${name} <br/> Email: ${email} <br/> Subject: ${subject} <br/> Message: ${message}`,
     }).then((message) => alert("Your mail sent successfully!"));
 }
