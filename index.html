@@ -22,7 +22,9 @@
     
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+	
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
@@ -163,6 +165,7 @@
 		</div>
 		
 	    	<div class="row">
+				
 					<div class="col-md-12">
 						<div class="search-wrap-1 ftco-animate p-4">
 							<form action="#" class="search-property-1">
@@ -172,7 +175,7 @@
 		        					<label for="#">Destination</label>
 		          				<div class="form-field">
 		          					<div class="icon"><span class="ion-ios-search"></span></div>
-				                <input type="text" class="form-control" placeholder="Search place">
+				                <input type="text" id="app" class="form-control" placeholder="Search place">
 				              </div>
 			              </div>
 		        			</div>
@@ -215,7 +218,7 @@
 		        			<div class="col-lg align-self-end">
 		        				<div class="form-group">
 		        					<div class="form-field">
-				                <input type="submit" value="Search" class="form-control btn btn-primary">
+				                <button type="button" id="search" class="form-control btn btn-primary">Search</button> 
 				              </div>
 			              </div>
 		        			</div>
@@ -223,7 +226,8 @@
 		        	</form>
 		        </div>
 				</div>
-	    	</div>
+			
+			</div>
 	    </div>
     </section>
 		
@@ -1145,25 +1149,24 @@
 	<script src="https://smtpjs.com/v3/smtp.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase.js"></script>
 	<script src="js/app.js"></script>
-	<!-- <script>	
-		 $('form').on('submit', (e) => {
-		 	e.preventDefault();
+	<!-- for the search only version -->
+	<script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js"></script>
 
-		 	const email= $('#email').val().trim();
-		 	const subject = $('#subject').val().trim();
-		 	const text = $('#text').val().trim();
+	<!-- for the default version -->
+	<script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch.umd.js"></script>
 
-		 	const data = {
-		 		email,
-		 		subject,
-		 		text
-		 	};
+	<script src="js/search.js"></script>
+	
+	  <!-- <script>
+		  const app = document.getElementById("app");
+		  const client = algoliasearch("0RHKO1QOFX", "ecac283cabaf8c7f2eca051a2e042797");
+		  const index = client.initIndex("dev_search");
 
-		 	$.post('/email', data, function(){
-		 		console.log('Server received our data');
-		 	});
+		  index.search("Hotel1").then(result => {
+			  const hits = result.hits.map(hit => `<p>${hit.title}</p>`);
+			  app.innerHTML = hits.join("");
+		  });
+	  </script> -->
 
-		});
-	</script> -->
 	</body>
   </html>

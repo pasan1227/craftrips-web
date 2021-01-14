@@ -1,0 +1,218 @@
+{
+    "hits": [
+      {
+        "destination1": "Ella",
+        "destination2": "Sigiriya",
+        "destination3": "Colombo",
+        "destination4": "Kandy",
+        "destination5": "Galle",
+        "destination6": "Nuwra Eliya",
+        "Hotel1": "Jetwing Colombo 7",
+        "Hotel2": "Marino Beach Colombo",
+        "Hotel3": "Shangri-La Hotel",
+        "Hotel4": "Cinnamon Grand Colombo",
+        "Hotel5": "Galadari Hotel",
+        "Hotel6": "Golden Crown",
+        "Restaurant1": "Ministry Of Crab",
+        "Restaurant2": "The Lagoon",
+        "Restaurant3": "Curry Leaf",
+        "Restaurant4": "World Spice",
+        "Restaurant5": "Licensed to Grill",
+        "Restaurant6": "Global kitchen",
+        "objectID": "3429764001",
+        "_snippetResult": {
+          "destination1": {
+            "value": "Ella",
+            "matchLevel": "none"
+          },
+          "destination2": {
+            "value": "Sigiriya",
+            "matchLevel": "none"
+          },
+          "destination3": {
+            "value": "Colombo",
+            "matchLevel": "none"
+          },
+          "destination4": {
+            "value": "Kandy",
+            "matchLevel": "none"
+          },
+          "destination5": {
+            "value": "Galle",
+            "matchLevel": "none"
+          },
+          "destination6": {
+            "value": "Nuwra Eliya",
+            "matchLevel": "none"
+          },
+          "Hotel1": {
+            "value": "Jetwing Colombo 7",
+            "matchLevel": "none"
+          },
+          "Hotel2": {
+            "value": "Marino Beach Colombo",
+            "matchLevel": "none"
+          },
+          "Hotel3": {
+            "value": "Shangri-La Hotel",
+            "matchLevel": "none"
+          },
+          "Hotel4": {
+            "value": "Cinnamon Grand Colombo",
+            "matchLevel": "none"
+          },
+          "Hotel5": {
+            "value": "Galadari Hotel",
+            "matchLevel": "none"
+          },
+          "Hotel6": {
+            "value": "Golden Crown",
+            "matchLevel": "none"
+          },
+          "Restaurant1": {
+            "value": "Ministry Of Crab",
+            "matchLevel": "none"
+          },
+          "Restaurant2": {
+            "value": "The Lagoon",
+            "matchLevel": "none"
+          },
+          "Restaurant3": {
+            "value": "Curry Leaf",
+            "matchLevel": "none"
+          },
+          "Restaurant4": {
+            "value": "World Spice",
+            "matchLevel": "none"
+          },
+          "Restaurant5": {
+            "value": "Licensed to Grill",
+            "matchLevel": "none"
+          },
+          "Restaurant6": {
+            "value": "Global kitchen",
+            "matchLevel": "none"
+          }
+        },
+        "_highlightResult": {
+          "destination1": {
+            "value": "Ella",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "destination2": {
+            "value": "Sigiriya",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "destination3": {
+            "value": "Colombo",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "destination4": {
+            "value": "Kandy",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "destination5": {
+            "value": "Galle",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "destination6": {
+            "value": "Nuwra Eliya",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "Hotel1": {
+            "value": "Jetwing Colombo 7",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "Hotel2": {
+            "value": "Marino Beach Colombo",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "Hotel3": {
+            "value": "Shangri-La Hotel",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "Hotel4": {
+            "value": "Cinnamon Grand Colombo",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "Hotel5": {
+            "value": "Galadari Hotel",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "Hotel6": {
+            "value": "Golden Crown",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "Restaurant1": {
+            "value": "Ministry Of Crab",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "Restaurant2": {
+            "value": "The Lagoon",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "Restaurant3": {
+            "value": "Curry Leaf",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "Restaurant4": {
+            "value": "World Spice",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "Restaurant5": {
+            "value": "Licensed to Grill",
+            "matchLevel": "none",
+            "matchedWords": []
+          },
+          "Restaurant6": {
+            "value": "Global kitchen",
+            "matchLevel": "none",
+            "matchedWords": []
+          }
+        },
+        "_rankingInfo": {
+          "nbTypos": 0,
+          "firstMatchedWord": 0,
+          "proximityDistance": 0,
+          "userScore": 0,
+          "geoDistance": 0,
+          "geoPrecision": 0,
+          "nbExactWords": 0,
+          "words": 0,
+          "filters": 0
+        }
+      }
+    ],
+    "nbHits": 1,
+    "page": 0,
+    "nbPages": 1,
+    "hitsPerPage": 10,
+    "facets": {},
+    "exhaustiveFacetsCount": true,
+    "exhaustiveNbHits": true,
+    "query": "",
+    "params": "highlightPreTag=%3Cais-highlight-0000000000%3E&highlightPostTag=%3C%2Fais-highlight-0000000000%3E&getRankingInfo=true&analytics=false&enableABTest=false&hitsPerPage=10&attributesToRetrieve=*&attributesToSnippet=*%3A20&snippetEllipsisText=%E2%80%A6&responseFields=*&query=&page=0&facets=%5B%22*%22%5D&tagFilters=",
+    "index": "dev_search",
+    "serverUsed": "c1-sg-3.algolia.net",
+    "indexUsed": "dev_search",
+    "parsedQuery": "",
+    "timeoutCounts": false,
+    "timeoutHits": false,
+    "processingTimeMS": 1
+  }
