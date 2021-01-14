@@ -96,8 +96,9 @@
             </div>
             
 
-
+            
             <div class="pt-5 mt-5">
+              
               <h3 class="mb-5">Comments</h3>
               <ul class="comment-list">
                 <li class="comment">
@@ -165,12 +166,17 @@
                   </div>
                 </li>
               </ul>
+              
+              </div>
+              <div id="allcomments" class="comment-list">
+              <ul id="pastcomments" class="comment-list"></ul>
+              
               <!-- END comment-list -->
               
               <div class="comment-form-wrap pt-5">
                 <h3 class="mb-5">Leave a comment</h3>
 
-                <form action="" method="POST" class="p-5 bg-light comment-form">
+                <form action="" id="newcomment" class="p-5 bg-light comment-form">
                   <div class="form-group">
                     <label for="name">Name *</label>
                     <input type="text" name="name" class="form-control name" id="name" required>
@@ -184,12 +190,11 @@
                     <textarea name="" id="message" cols="30" rows="10" class="form-control message" required></textarea>
                   </div>
                   <div class="form-group">
-                    <input type="submit" id="submitComment" value="Submit" class="btn py-3 px-4 btn-primary">
+                    <input type="submit" id="submit" value="Submit" class="btn py-3 px-4 btn-primary">
                   </div>
                 </form>
               </div>
-
-            
+              
             </div>
           </div> <!-- .col-md-8 -->
 
@@ -322,24 +327,24 @@
       </div>
       </footer>  
     
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery-migrate-3.0.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/jquery.animateNumber.min.js"></script>
-    <script src="js/scrollax.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"></script>
-    <script src="js/google-map.js"></script> 
-    <script src="js/main.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase.js"></script>
-    <script src="js/comments.js"></script>
-    
-
+      <script src="js/jquery.min.js"></script>
+      <script src="js/jquery-migrate-3.0.1.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/jquery.easing.1.3.js"></script>
+      <script src="js/jquery.waypoints.min.js"></script>
+      <script src="js/jquery.stellar.min.js"></script>
+      <script src="js/owl.carousel.min.js"></script>
+      <script src="js/jquery.magnific-popup.min.js"></script>
+      <script src="js/aos.js"></script>
+      <script src="js/jquery.animateNumber.min.js"></script>
+      <script src="js/scrollax.min.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"></script>
+      <script src="js/google-map.js"></script> 
+      <script src="js/main.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-firestore.js"></script>
+      <script src="js/comments.js"></script>
+      
     </body>
     </html>

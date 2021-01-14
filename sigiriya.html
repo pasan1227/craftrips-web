@@ -297,27 +297,30 @@
               </ul>
               <!-- END comment-list -->
              
-              <div class="comment-form-wrap pt-5">
-                <h3 class="mb-5">Leave a comment</h3>
-
-                <form action="" method="POST" class="p-5 bg-light comment-form">
-                  <div class="form-group">
-                    <label for="name">Name *</label>
-                    <input type="text" name="name" class="form-control name" id="name" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="email">Email *</label>
-                    <input type="email" name="email" class="form-control email" id="email" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea name="" id="message" cols="30" rows="10" class="form-control message" required></textarea>
-                  </div>
-                  <div class="form-group">
-                    <input type="submit" id="submitComment" value="Submit" class="btn py-3 px-4 btn-primary">
-                  </div>
-                </form>
-              </div>
+              <div id="allcomments" class="comment-list">
+                <ul id="pastcomments" class="comment-list"></ul>
+                
+                <div class="comment-form-wrap pt-5">
+                  <h3 class="mb-5">Leave a comment</h3>
+  
+                  <form action="" id="newcomment" class="p-5 bg-light comment-form">
+                    <div class="form-group">
+                      <label for="name">Name *</label>
+                      <input type="text" name="name" class="form-control name" id="name" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Email *</label>
+                      <input type="email" name="email" class="form-control email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="message">Message</label>
+                      <textarea name="" id="message" cols="30" rows="10" class="form-control message" required></textarea>
+                    </div>
+                    <div class="form-group">
+                      <input type="submit" id="submit" value="Submit" class="btn py-3 px-4 btn-primary">
+                    </div>
+                  </form>
+                </div>
              
             </div>
     			</div>
@@ -401,6 +404,7 @@
     <script src="js/google-map.js"></script>  
     <script src="js/main.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-firestore.js"></script>
     <script src="js/comments.js"></script>
     </body>
     </html>
